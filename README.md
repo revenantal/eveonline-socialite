@@ -6,7 +6,7 @@ Install Larvel Socialite (see here: https://github.com/laravel/socialite/blob/2.
 Install the eveonline socialite provider
 
 ```
-composer require nullx27/eveonline-socialite
+composer require revenantal/eveonline-socialite
 ```
 
 Add the follwing to your .env file:
@@ -22,7 +22,7 @@ EVEONLINE_REDIRECT=
 #### Laravel <= 5.4
 Add the following to your config/app.php
 ```
-nullx27\Socialite\EveOnline\Providers\EveOnlineServiceProvider::class,
+revenantal\Socialite\EveOnline\Providers\EveOnlineServiceProvider::class,
 ```
 
 #### Laravel 5.5

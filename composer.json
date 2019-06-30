@@ -1,5 +1,5 @@
 {
-    "name": "nullx27/eveonline-socialite",
+    "name": "revenantal/eveonline-socialite",
     "description": "EveOnline SSO Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "nullx27\\Socialite\\EveOnline\\": "src/"
+            "revenantal\\Socialite\\EveOnline\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "nullx27\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider"
+                "revenantal\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider"
             ]
         }
     }
